@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/83754c601e.js" crossorigin="anonymous"></script>
+    <style>
+        p {
+            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        .foto-perfil {
+            height: 100%;
+            width: auto;
+            max-width: 100%;
+            border-radius: 50%;
+        }
+
+        .icones {
+            padding-left: 5px;
+        }
+
+        .titulosBrancos {
+            text-decoration: underline;
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: white;
+        }
+
+        .titulosVerdes {
+            text-decoration: underline;
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #18bc9c
+        }
+
+        .textoBranco {
+            color: white !important;
+        }
+
+
+        .jumbotron {
+            margin-bottom: 0px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        p {
+            color: black !important;
+        }
+
+        .corPrimaria {
+            background-color: #18bc9c;
+        }
+
+        .itemMenu {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#2c3e50">
+        <a class="navbar-brand textoBranco" href="#">Juliane Alves</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle
+             navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href=#projetos white>Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href=#sobre-mim white>Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href=#depoimentos>Depoimentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href=#contatos>Contatos</a>
+                </li>
+                <li class="nav-item">
+            </ul>
+        </div>
+    </nav>
+    <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <img class="foto-perfil" src="https://i.ibb.co/pWZMyYm/foto-link-finalizada.jpg" alt="">
+            <h1 class="jumbotron-heading textoBranco">Juliane Alves</h1>
+            <p class="lead textoBranco ">Formada em Engenharia, Técnica de Eletrônica e estudande de Programação -
+                futura
+                Front-end web development.</p>
+            <p>
+                <a href="#contatos" class="btn btn-dark my-2">Contato</a>
+            </p>
+            <a href="https://www.linkedin.com/in/juliane-alves-43b15987"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/julisevla3"><i class="icones fab fa-github"></i></a>
+            <a href="https://www.instagram.com/julisevla/"><i class="icones fab fa-instagram"></i></a>
+
+        </div>
+    </section>
+    <div class="album py-5 bg-light" id="projetos">
+        <div class="container">
+            <h2 class="text-center jumbotron-heading titulosVerdes">Projetos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ibb.co/DKpYRb2/logoapp.png" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Leitor em PDF para Manual de Python.</p>
+                            <ul>
+                                <li>Flask</li>
+                                <li>PyMongo</li>
+                                <li>Gunicorn</li>
+                                <li>Request</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="github/meuprojeto"><button type="button"
+                                            class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                                    <a href="github/meucodigo"><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card mb-6 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ibb.co/P1bLNC8/Window.png" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Criação de Site Portifólio.</p>
+                            <ul>
+                                <li>Bootstrap4</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScrip</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="github/meuprojeto"><button type="button"
+                                            class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                                    <a href="github/meucodigo"><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sobre mim-->
+    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+        <div class="container">
+            <h2 class="jumbotron-heading titulosBrancos">Sobre Mim</h2>
+            <p class="lead textoBranco">Sou uma proﬁssional comunicativa, prestativa, gosto de trabalhar em equipe, me
+                adapto rápido
+                e aprendo com facilidade. Sou técnica em Eletrônica e formada em Engenharia de Produção. Durante os
+                últimos 10 anos trabalhei na área técnica, administrativa e comercial em empresas do segmento
+                tecnológico. Iniciei minhas atividades como assistente técnica, passando pelas funções de técnica e de
+                supervisão de setor</p>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+
+    <section class="album py-5 bg-light" id="depoimentos">
+        <div class="container">
+            <h2 class="text-center jumbotron-heading titulosVerdes"> Depoimentos</h2>
+            <blockquote class="blockquote text-center">
+                <p class=>Tive o prazer de trabalhar com a Juliane uma profissional séria, competente,
+                    compremetida. E adora ajudar os outros está sempre a estender a mão.</p>
+                <footer class="blockquote-footer"> Profissional de Administração <cite
+                        title="Source Title">Imagination</cite>
+                </footer>
+            </blockquote>
+            <blockquote class="blockquote text-center">
+                <p class=>É uma profissional com um foco enorme em suas tarefas diárias, além da simples dedicação
+                    do dia-a-dia na empresa.</p>
+                <footer class="blockquote-footer"> Consultora Técnica <cite title="Source Title">CBPF</cite>
+                </footer>
+            </blockquote>
+        </div>
+    </section>
+    <!-- Contatos -->
+    <section class='corPrimaria' id="contatos">
+        <div>
+            <div>
+                <div class="container-fluid">
+                    <h3 style="padding-top: 60px;" class="text-center titulosBrancos">Disponível para oportunidade</h3>
+                    <a href="mailto:julisevla@yahoo.com.br">
+                        <h4 style="padding-bottom:60px;
+                    margin-bottom: 0px;" class="text-center">julisevla@yahoo.com.br</h4>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="text-center " style="background-color:#2c3e50">
+        <p class="textoBranco">Copyright 2021 </p>
+    </footer>
+
+
+</body>
+
+</html>
